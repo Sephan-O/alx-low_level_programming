@@ -1,12 +1,12 @@
 #include <stdio.h>
 int main()
 {
-   int count=0;
+  int count=0;
    while (count <= 9)
    {
-	printf("%d", count);
+	putchar(count);
 	count++;
    }
-   printf("\n");
+   putchar('\n');
    return 0;
 }
