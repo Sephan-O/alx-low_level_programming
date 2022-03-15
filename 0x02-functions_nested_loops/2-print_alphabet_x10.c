@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * main-this function prints alphabet 10 times
- * Return: returns void
- */
-void print_alphabet(void)
+*print_alphabet_x10 - check the code.
+*Return: Always void.
+*/
+void print_alphabet_x10(void)
 {
-int i;
+int i = 0;
 while (i < 10)
 {
 char ch = 'a';
