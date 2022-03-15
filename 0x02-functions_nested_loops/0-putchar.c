@@ -8,6 +8,6 @@
 int main(void)
 {
 char ch[] = "_putchar";
-printf("the chars printed are: %s\n", ch);
+printf("%s\n", ch);
 return (0);
 }
