@@ -2,7 +2,7 @@
 
 /**
 * mul - this function multiplies a and b
-* a - first parameter for multiplication
+* int a - first parameter for multiplication
 * int b: second parameter for multiplication
 * Return: 0
 */
