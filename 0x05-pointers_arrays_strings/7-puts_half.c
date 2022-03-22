@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include "main.h"
 /**
  * puts_half - a function that prints only half of a string
  * @str: the string which's supposed to be split into half
