@@ -11,7 +11,7 @@
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
 memcpy(dest, src, n);
-return(dest);
+return (dest);
 }
 /* void simple_print_buffer(char *buffer, unsigned int size) */
 /* { */
