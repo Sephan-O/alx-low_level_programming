@@ -1,36 +1,17 @@
-/* #include "main.h" */
-#include <stdio.h>
-#include <string.h>
+#include "main.h"
 
 /**
- * print_chessboard - A function that prints the chessboard
- * @a: array of chess pieces to print
- * Return: returns void
+ * print_chessboard - a function that prints a chessboard
+ * @a: an array input to print
+ * Return: Nothing
  */
 void print_chessboard(char (*a)[8])
 {
-char i, j;
-for (i = 0; i < 8; i++)
+int i = 0, j;
+for (; i < 8; i++)
 {
 for (j = 0; j < 8; j++)
-{
-printf("%c ", a[i][j]);
-}
-printf("\n");
+_putchar(a[i][j]);
+_putchar('\n');
 }
 }
-/* int main(void) */
-/* { */
-/*     char board[8][8] = { */
-/*         {'r', 'k', 'b', 'q', 'k', 'b', 'k', 'r'}, */
-/*         {'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p'}, */
-/*         {' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '}, */
-/*         {' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '}, */
-/*         {' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '}, */
-/*         {' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '}, */
-/*         {'P', 'P', 'P', 'P', 'P', 'P', 'P', 'P'}, */
-/*         {'R', 'K', 'B', 'Q', 'K', 'B', 'K', 'R'}, */
-/*     }; */
-/*     print_chessboard(board); */
-/*     return (0); */
-/* } */
