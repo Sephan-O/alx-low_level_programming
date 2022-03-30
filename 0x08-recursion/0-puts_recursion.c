@@ -1,17 +1,17 @@
-#include <stdio.h>
-#include <math.h>
+#include "main.h"
 
 /**
- * _puts_recursion - A fucntion that prints string then new line
- *@s: the string to pe printed
- *Return: void does't return anything
+ * _puts_recursion - a func that prints a string.
+ * @s: the string.
+ * Return: return nothing
  */
 void _puts_recursion(char *s)
 {
- puts(s);
-}
-int main(void)
-{
-    _puts_recursion("Puts with recursion");
-    return (0);
+	if (*s == 0)
+	{
+		_putchar('\n');
+		return;
+	}
+	_putchar(*s);
+	_puts_recursion(s + 1);
 }
