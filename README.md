@@ -1,1 +1,1 @@
-debuging in C
+A look into various concepts in C programming
